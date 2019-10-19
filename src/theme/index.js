@@ -1,6 +1,6 @@
 const colors = {
     dark: '#252525',
-    transparentDark: 'rgba(37,37,37 0.9)',
+    transparentDark: 'rgba(37, 37, 37, 0.7)',
     primary: '#fff',
     secondary: '#6e7073',
     highlight: '#DF1E3A',

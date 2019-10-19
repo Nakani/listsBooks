@@ -1,152 +1,77 @@
 export const apibook = {
     "kind": "books#volumes",
-    "totalItems": 102,
+    "totalItems": 467,
     "items": [
         {
             "kind": "books#volume",
-            "id": "gK98gXR8onwC",
-            "etag": "wzCPEQsXi+A",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/gK98gXR8onwC",
+            "id": "yjUQCwAAQBAJ",
+            "etag": "lynV5ImjWVA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/yjUQCwAAQBAJ",
             "volumeInfo": {
-                "title": "Flowers for Algernon",
-                "subtitle": "One Act",
+                "title": "Harry Potter e o enigma do Príncipe",
                 "authors": [
-                    "David Rogers",
-                    "Daniel Keyes"
+                    "J.K. Rowling"
                 ],
-                "publisher": "Dramatic Publishing",
-                "publishedDate": "1969",
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-08",
+                "description": "Harry, longe de ser aquele menino magricela que vivia no quarto debaixo da escada na casa dos tios trouxas, é um dos principais nomes entre aqueles que lutam contra Voldemort, e se vê cada vez mais isolado à medida em que os rumores de que ele é O Eleito, o único capaz de derrotar o Lorde das Trevas, se espalham pelo mundo bruxo. Dois atentados contra a vida de estudantes, a certeza de Harry quanto ao envolvimento de Draco Malfoy com os Comensais da Morte e o comportamento de Snape, suspeito como sempre, adicionam ainda mais tensão ao já inquietante período.",
                 "industryIdentifiers": [
                     {
-                        "type": "ISBN_10",
-                        "identifier": "0871293870"
+                        "type": "ISBN_13",
+                        "identifier": "9781781104057"
                     },
                     {
-                        "type": "ISBN_13",
-                        "identifier": "9780871293879"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": true
-                },
-                "pageCount": 32,
-                "printType": "BOOK",
-                "averageRating": 5.0,
-                "ratingsCount": 1,
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "0.0.2.0.preview.1",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=gK98gXR8onwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=gK98gXR8onwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=gK98gXR8onwC&pg=PA3&dq=flowers%2Binauthor:keyes&hl=&cd=1&source=gbs_api",
-                "infoLink": "http://books.google.com.br/books?id=gK98gXR8onwC&dq=flowers%2Binauthor:keyes&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_for_Algernon.html?hl=&id=gK98gXR8onwC"
-            },
-            "saleInfo": {
-                "country": "BR",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BR",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=gK98gXR8onwC&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "<b>FLOWERS</b>. FOR. ALGERNON. A One-act Play For Four Men And One Woman* <br>\nCHARACTERS DR. STRAUSS a young neurosurgeon PROFESSOR NEMUR his <br>\nolder colleague ALICE KINNIAN a young, dedicated teacher BURT SELDON a&nbsp;..."
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "_oG_iTxP1pIC",
-            "etag": "y/tvpPbEDyc",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/_oG_iTxP1pIC",
-            "volumeInfo": {
-                "title": "Flowers for Algernon",
-                "authors": [
-                    "Daniel Keyes"
-                ],
-                "publisher": "Houghton Mifflin Harcourt",
-                "publishedDate": "2007-12-01",
-                "description": "Oscar-winning film Charly starring Cliff Robertson and Claire Bloom-a mentally challenged man receives an operation that turns him into a genius...and introduces him to heartache.",
-                "industryIdentifiers": [
-                    {
                         "type": "ISBN_10",
-                        "identifier": "0547539630"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9780547539638"
+                        "identifier": "1781104050"
                     }
                 ],
                 "readingModes": {
                     "text": true,
                     "image": true
                 },
-                "pageCount": 304,
+                "pageCount": 471,
                 "printType": "BOOK",
                 "categories": [
-                    "Fiction"
+                    "Juvenile Fiction"
                 ],
-                "averageRating": 4.0,
-                "ratingsCount": 171,
                 "maturityRating": "NOT_MATURE",
                 "allowAnonLogging": true,
-                "contentVersion": "1.12.11.0.preview.3",
+                "contentVersion": "1.5.8.0.preview.3",
                 "panelizationSummary": {
                     "containsEpubBubbles": false,
                     "containsImageBubbles": false
                 },
                 "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=_oG_iTxP1pIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=_oG_iTxP1pIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    "smallThumbnail": "http://books.google.com/books/content?id=yjUQCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=yjUQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
                 },
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=_oG_iTxP1pIC&pg=PA225&dq=flowers%2Binauthor:keyes&hl=&cd=2&source=gbs_api",
-                "infoLink": "https://play.google.com/store/books/details?id=_oG_iTxP1pIC&source=gbs_api",
-                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_oG_iTxP1pIC"
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=yjUQCwAAQBAJ&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=yjUQCwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=yjUQCwAAQBAJ"
             },
             "saleInfo": {
                 "country": "BR",
                 "saleability": "FOR_SALE",
                 "isEbook": true,
                 "listPrice": {
-                    "amount": 57.49,
+                    "amount": 24.9,
                     "currencyCode": "BRL"
                 },
                 "retailPrice": {
-                    "amount": 57.49,
+                    "amount": 24.9,
                     "currencyCode": "BRL"
                 },
-                "buyLink": "https://play.google.com/store/books/details?id=_oG_iTxP1pIC&rdid=book-_oG_iTxP1pIC&rdot=1&source=gbs_api",
+                "buyLink": "https://play.google.com/store/books/details?id=yjUQCwAAQBAJ&rdid=book-yjUQCwAAQBAJ&rdot=1&source=gbs_api",
                 "offers": [
                     {
                         "finskyOfferType": 1,
                         "listPrice": {
-                            "amountInMicros": 5.749E7,
+                            "amountInMicros": 2.49E7,
                             "currencyCode": "BRL"
                         },
                         "retailPrice": {
-                            "amountInMicros": 5.749E7,
+                            "amountInMicros": 2.49E7,
                             "currencyCode": "BRL"
                         },
                         "giftable": true
@@ -161,576 +86,707 @@ export const apibook = {
                 "textToSpeechPermission": "ALLOWED",
                 "epub": {
                     "isAvailable": true,
-                    "acsTokenLink": "http://books.google.com.br/books/download/Flowers_for_Algernon-sample-epub.acsm?id=_oG_iTxP1pIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_o_enigma_do_Pr%C3%ADncipe-sample-epub.acsm?id=yjUQCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
                 },
                 "pdf": {
                     "isAvailable": true,
-                    "acsTokenLink": "http://books.google.com.br/books/download/Flowers_for_Algernon-sample-pdf.acsm?id=_oG_iTxP1pIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_o_enigma_do_Pr%C3%ADncipe-sample-pdf.acsm?id=yjUQCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
                 },
-                "webReaderLink": "http://play.google.com/books/reader?id=_oG_iTxP1pIC&hl=&printsec=frontcover&source=gbs_api",
+                "webReaderLink": "http://play.google.com/books/reader?id=yjUQCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
                 "accessViewStatus": "SAMPLE",
                 "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "wAUiAAAAMAAJ",
-            "etag": "+QD6dkTlW1w",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/wAUiAAAAMAAJ",
-            "volumeInfo": {
-                "title": "Evan Dale",
-                "authors": [
-                    "F. Keyes"
-                ],
-                "publishedDate": "1864",
-                "industryIdentifiers": [
-                    {
-                        "type": "OTHER",
-                        "identifier": "NYPL:33433074876743"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": true
-                },
-                "pageCount": 387,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "0.1.1.0.full.1",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=wAUiAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=wAUiAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=wAUiAAAAMAAJ&pg=PA137&dq=flowers%2Binauthor:keyes&hl=&cd=3&source=gbs_api",
-                "infoLink": "https://play.google.com/store/books/details?id=wAUiAAAAMAAJ&source=gbs_api",
-                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wAUiAAAAMAAJ"
-            },
-            "saleInfo": {
-                "country": "BR",
-                "saleability": "FREE",
-                "isEbook": true,
-                "buyLink": "https://play.google.com/store/books/details?id=wAUiAAAAMAAJ&rdid=book-wAUiAAAAMAAJ&rdot=1&source=gbs_api"
-            },
-            "accessInfo": {
-                "country": "BR",
-                "viewability": "ALL_PAGES",
-                "embeddable": true,
-                "publicDomain": true,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false,
-                    "downloadLink": "http://books.google.com.br/books/download/Evan_Dale.epub?id=wAUiAAAAMAAJ&hl=&output=epub&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "downloadLink": "http://books.google.com.br/books/download/Evan_Dale.pdf?id=wAUiAAAAMAAJ&hl=&output=pdf&sig=ACfU3U2Xg5OeqGIO0AvQ0NH19Kz80v0uRw&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=wAUiAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
-                "quoteSharingAllowed": false
             },
             "searchInfo": {
-                "textSnippet": "crushed on the unfeeling <b>flowers</b> of the carpet, take it tip tenderly, and curse the <br>\nfoot that spoiled it. For the rest of the evening Carleton was on an extensive <br>\nsearch of discovery for the missing <b>flower</b>. In truth, he was in great danger of <br>\nbecoming&nbsp;..."
+                "textSnippet": "Harry, longe de ser aquele menino magricela que vivia no quarto debaixo da escada na casa dos tios trouxas, é um dos principais nomes entre aqueles que lutam contra Voldemort, e se vê cada vez mais isolado à medida em que os rumores de ..."
             }
         },
         {
             "kind": "books#volume",
-            "id": "uCqioAEACAAJ",
-            "etag": "e3SIhoETc3o",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/uCqioAEACAAJ",
+            "id": "hjcQCwAAQBAJ",
+            "etag": "ngIPt+Eq4WA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/hjcQCwAAQBAJ",
             "volumeInfo": {
-                "title": "Flowers for Algernon - Downloadable Multiple Critical Perspectives",
+                "title": "Harry Potter e a Câmara Secreta",
                 "authors": [
-                    "Daniel Keyes"
+                    "J.K. Rowling"
                 ],
-                "publishedDate": "2011-01-01",
-                "description": "Probe the depth and richness of your favorite titles and usher your students into an understanding of what really made us want to teach literature in the first place. Each guide offers clear and concise explanations of three different critical perspectives.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "1935467972"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9781935467977"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=uCqioAEACAAJ&dq=flowers%2Binauthor:keyes&hl=&cd=4&source=gbs_api",
-                "infoLink": "http://books.google.com.br/books?id=uCqioAEACAAJ&dq=flowers%2Binauthor:keyes&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_for_Algernon_Downloadable_Multip.html?hl=&id=uCqioAEACAAJ"
-            },
-            "saleInfo": {
-                "country": "BR",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BR",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=uCqioAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Probe the depth and richness of your favorite titles and usher your students into an understanding of what really made us want to teach literature in the first place."
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "xYK5oAEACAAJ",
-            "etag": "Aw4UmJe95Wg",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/xYK5oAEACAAJ",
-            "volumeInfo": {
-                "title": "Flowers for Algernon - Multiple Critical Perspectives",
-                "authors": [
-                    "Daniel Keyes"
-                ],
-                "publishedDate": "2011-01-01",
-                "description": "Probe the depth and richness of your favorite titles and usher your students into an understanding of what really made us want to teach literature in the first place. Each guide offers clear and concise explanations of three different critical perspectives.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "1935467964"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9781935467960"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=xYK5oAEACAAJ&dq=flowers%2Binauthor:keyes&hl=&cd=5&source=gbs_api",
-                "infoLink": "http://books.google.com.br/books?id=xYK5oAEACAAJ&dq=flowers%2Binauthor:keyes&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Flowers_for_Algernon_Multiple_Critical_P.html?hl=&id=xYK5oAEACAAJ"
-            },
-            "saleInfo": {
-                "country": "BR",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BR",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=xYK5oAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Probe the depth and richness of your favorite titles and usher your students into an understanding of what really made us want to teach literature in the first place."
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "PDTD2hPNcjAC",
-            "etag": "0mQQRAmbtVI",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/PDTD2hPNcjAC",
-            "volumeInfo": {
-                "title": "Algernon, Charlie, and I",
-                "subtitle": "A Writer's Journey",
-                "authors": [
-                    "Daniel Keyes"
-                ],
-                "publisher": "Houghton Mifflin Harcourt",
-                "publishedDate": "2004-09-01",
-                "description": "In Flowers for Algernon, Daniel Keyes created an unlikely duo-a laboratory mouse and a man-who captured the hearts of millions of readers around the world. Now, in Algernon, Charlie, and I, Keyes reveals his methods of creating fiction as well as the heartbreaks and joys of being published. With admirable insight he shares with readers, writers, teachers, and students the creative life behind his classic novel, included here in its original short-story form. All those who love stories, storytelling, and the remarkable characters of Charlie and Algernon will delight in accompanying their creator on this inspirational voyage of discovery.",
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-08",
+                "description": "Para Harry, garoto sem família e rejeitado pelos tios, Hogwarts é tudo. Portanto, quando colegas, e até professores, começam a desconfiar que ele tem alguma participação nas tragédias que estão acontecendo no colégio, a situação fica mais complicada. Até Hermione, amiga querida de Potter, é atacada pelo monstro e se transforma numa estátua. Só resta ao nosso herói tentar resolver o mistério por conta própria. Mais uma vez, ele enfrenta o terrível bruxo das trevas e... O final é surpreendente e muito divertido.",
                 "industryIdentifiers": [
                     {
                         "type": "ISBN_13",
-                        "identifier": "9780547564081"
+                        "identifier": "9781781103692"
                     },
                     {
                         "type": "ISBN_10",
-                        "identifier": "0547564082"
+                        "identifier": "1781103690"
                     }
                 ],
                 "readingModes": {
                     "text": true,
                     "image": true
-                },
-                "pageCount": 228,
-                "printType": "BOOK",
-                "categories": [
-                    "Biography & Autobiography"
-                ],
-                "averageRating": 4.0,
-                "ratingsCount": 3,
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "1.7.8.0.preview.3",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=PDTD2hPNcjAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=PDTD2hPNcjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=PDTD2hPNcjAC&printsec=frontcover&dq=flowers%2Binauthor:keyes&hl=&cd=6&source=gbs_api",
-                "infoLink": "https://play.google.com/store/books/details?id=PDTD2hPNcjAC&source=gbs_api",
-                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PDTD2hPNcjAC"
-            },
-            "saleInfo": {
-                "country": "BR",
-                "saleability": "FOR_SALE",
-                "isEbook": true,
-                "listPrice": {
-                    "amount": 61.49,
-                    "currencyCode": "BRL"
-                },
-                "retailPrice": {
-                    "amount": 61.49,
-                    "currencyCode": "BRL"
-                },
-                "buyLink": "https://play.google.com/store/books/details?id=PDTD2hPNcjAC&rdid=book-PDTD2hPNcjAC&rdot=1&source=gbs_api",
-                "offers": [
-                    {
-                        "finskyOfferType": 1,
-                        "listPrice": {
-                            "amountInMicros": 6.149E7,
-                            "currencyCode": "BRL"
-                        },
-                        "retailPrice": {
-                            "amountInMicros": 6.149E7,
-                            "currencyCode": "BRL"
-                        },
-                        "giftable": true
-                    }
-                ]
-            },
-            "accessInfo": {
-                "country": "BR",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.com.br/books/download/Algernon_Charlie_and_I-sample-epub.acsm?id=PDTD2hPNcjAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.com.br/books/download/Algernon_Charlie_and_I-sample-pdf.acsm?id=PDTD2hPNcjAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=PDTD2hPNcjAC&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Now, in Algernon, Charlie, and I, Keyes reveals his methods of creating fiction as well as the heartbreaks and joys of being published."
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "LRlCAAAAYAAJ",
-            "etag": "F0HRBWw6Wh4",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/LRlCAAAAYAAJ",
-            "volumeInfo": {
-                "title": "Some Environmental Factors Influencing Bud Formation, Abscission and Flower Production of Gardenias",
-                "authors": [
-                    "Curtis Gilbert Keyes"
-                ],
-                "publishedDate": "1946",
-                "industryIdentifiers": [
-                    {
-                        "type": "OTHER",
-                        "identifier": "CORNELL:31924002987646"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 190,
-                "printType": "BOOK",
-                "categories": [
-                    "Gardenia"
-                ],
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=LRlCAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=LRlCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=LRlCAAAAYAAJ&q=flowers%2Binauthor:keyes&dq=flowers%2Binauthor:keyes&hl=&cd=7&source=gbs_api",
-                "infoLink": "http://books.google.com.br/books?id=LRlCAAAAYAAJ&dq=flowers%2Binauthor:keyes&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Some_Environmental_Factors_Influencing_B.html?hl=&id=LRlCAAAAYAAJ"
-            },
-            "saleInfo": {
-                "country": "BR",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BR",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=LRlCAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Ом relation ooneeralBg <b>flower</b> pr^ ebeerTod, and that me хлa oorrelativa botwee.<br>\n. abeeießioa <b>flower</b> pro^untioo» мaeпever <b>flower</b> produotion wee iпoreaood the <br>\nenount of bud aUeoieeion Ümt took plaoe waa ílkewiu Î:!.; .-. ЗoптorсeГye if any&nbsp;..."
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "Co89jQRg4_oC",
-            "etag": "8BUDNPD/Z/o",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/Co89jQRg4_oC",
-            "volumeInfo": {
-                "title": "The Other Side of the Story",
-                "authors": [
-                    "Marian Keyes"
-                ],
-                "publisher": "Penguin UK",
-                "publishedDate": "2005-03-10",
-                "description": "The lives of three women collide when a highflying literary agent finds herself representing two women who were once best friends . . . 'There are three sides to every story. Your side, their side, and the truth . . .' Sharkish literary agent Jojo has just made a very bad career move - she's slept with her married boss Mark . . . Lily - Jojo's bestselling author - has just blown her advance on a house with new boyfriend Anton, only to come down with writer's block . . . Gemma used to be Lily's best friend until Lily ran off with Anton. Now she's pouring her heart out and a certain literary agent likes her style . . . Soon the fortunes of Jojo, Lily and Gemma are horribly entangled. But each is about to discover that there's more than one side to every story . . . 'It had me in tears . . . and, barking with laughter' Daily Telegraph 'A wonderful, subtle, hilarious and highly sophisticated novel. You can't stop reading' Evening Standard 'Packed with sound writing, wit and common sense' Guardian",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9780141909653"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "014190965X"
-                    }
-                ],
-                "readingModes": {
-                    "text": true,
-                    "image": false
-                },
-                "pageCount": 672,
-                "printType": "BOOK",
-                "categories": [
-                    "Fiction"
-                ],
-                "averageRating": 4.0,
-                "ratingsCount": 13,
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "1.28.23.0.preview.2",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=Co89jQRg4_oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=Co89jQRg4_oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=Co89jQRg4_oC&pg=PT62&dq=flowers%2Binauthor:keyes&hl=&cd=8&source=gbs_api",
-                "infoLink": "https://play.google.com/store/books/details?id=Co89jQRg4_oC&source=gbs_api",
-                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Co89jQRg4_oC"
-            },
-            "saleInfo": {
-                "country": "BR",
-                "saleability": "FOR_SALE",
-                "isEbook": true,
-                "listPrice": {
-                    "amount": 42.14,
-                    "currencyCode": "BRL"
-                },
-                "retailPrice": {
-                    "amount": 42.14,
-                    "currencyCode": "BRL"
-                },
-                "buyLink": "https://play.google.com/store/books/details?id=Co89jQRg4_oC&rdid=book-Co89jQRg4_oC&rdot=1&source=gbs_api",
-                "offers": [
-                    {
-                        "finskyOfferType": 1,
-                        "listPrice": {
-                            "amountInMicros": 4.214E7,
-                            "currencyCode": "BRL"
-                        },
-                        "retailPrice": {
-                            "amountInMicros": 4.214E7,
-                            "currencyCode": "BRL"
-                        },
-                        "giftable": true
-                    }
-                ]
-            },
-            "accessInfo": {
-                "country": "BR",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.com.br/books/download/The_Other_Side_of_the_Story-sample-epub.acsm?id=Co89jQRg4_oC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=Co89jQRg4_oC&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Instead, I&#39;d thank him and say that buttercups were my favourite <b>flowers</b>. (As if.) At <br>\nsome stage I&#39;d end up in his kitchen where I&#39;d see him tenderly feeding a tiny <br>\nlamb from a baby&#39;s bottle and my heart would begin its long overdue thaw."
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "jQxIAQAAMAAJ",
-            "etag": "ihQKum/y6Y4",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/jQxIAQAAMAAJ",
-            "volumeInfo": {
-                "title": "The Five Senses",
-                "authors": [
-                    "Angela Mary Keyes"
-                ],
-                "publishedDate": "1911",
-                "industryIdentifiers": [
-                    {
-                        "type": "OTHER",
-                        "identifier": "IOWA:31858006011708"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
                 },
                 "pageCount": 252,
                 "printType": "BOOK",
                 "categories": [
-                    "Senses and sensation"
+                    "Juvenile Fiction"
                 ],
                 "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=jQxIAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=jQxIAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                "allowAnonLogging": true,
+                "contentVersion": "1.5.8.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
                 },
-                "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=jQxIAQAAMAAJ&q=flowers%2Binauthor:keyes&dq=flowers%2Binauthor:keyes&hl=&cd=9&source=gbs_api",
-                "infoLink": "http://books.google.com.br/books?id=jQxIAQAAMAAJ&dq=flowers%2Binauthor:keyes&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/The_Five_Senses.html?hl=&id=jQxIAQAAMAAJ"
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=hjcQCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=hjcQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=hjcQCwAAQBAJ&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=hjcQCwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hjcQCwAAQBAJ"
             },
             "saleInfo": {
                 "country": "BR",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=hjcQCwAAQBAJ&rdid=book-hjcQCwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "giftable": true
+                    }
+                ]
             },
             "accessInfo": {
                 "country": "BR",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
+                "viewability": "PARTIAL",
+                "embeddable": true,
                 "publicDomain": false,
                 "textToSpeechPermission": "ALLOWED",
                 "epub": {
-                    "isAvailable": false
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_a_C%C3%A2mara_Secreta-sample-epub.acsm?id=hjcQCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
                 },
                 "pdf": {
-                    "isAvailable": false
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_a_C%C3%A2mara_Secreta-sample-pdf.acsm?id=hjcQCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
                 },
-                "webReaderLink": "http://play.google.com/books/reader?id=jQxIAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
+                "webReaderLink": "http://play.google.com/books/reader?id=hjcQCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
                 "quoteSharingAllowed": false
             },
             "searchInfo": {
-                "textSnippet": "In field and garden the <b>flowers</b> no longer stood forth gaily in their brightest colors. <br>\nButtercups and daisies bent on their slender stalks and drew themselves together<br>\n. The pansies drooped and shrank and pulled together their velvet gowns."
+                "textSnippet": "Para Harry, garoto sem família e rejeitado pelos tios, Hogwarts é tudo."
             }
         },
         {
             "kind": "books#volume",
-            "id": "9ygPPQAACAAJ",
-            "etag": "659Q6oqzUfs",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/9ygPPQAACAAJ",
+            "id": "GjgQCwAAQBAJ",
+            "etag": "4i3K3feVdNo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/GjgQCwAAQBAJ",
             "volumeInfo": {
-                "title": "Flores para Algernon",
+                "title": "Harry Potter e a Pedra Filosofal",
                 "authors": [
-                    "Daniel Keyes"
+                    "J.K. Rowling"
                 ],
-                "publisher": "Ediciones Sm",
-                "publishedDate": "2004",
-                "description": "Charlie Gordon, a youth with limited mental capabilities, along with a laboratory rat named Algernon become the the joint objects of a scientific alteration to see if Charlie can become \"normal.\"",
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-08",
+                "description": "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. No dia de seu aniversário de 11 anos, Harry descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer; ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais.",
                 "industryIdentifiers": [
                     {
-                        "type": "ISBN_10",
-                        "identifier": "8467503483"
+                        "type": "ISBN_13",
+                        "identifier": "9781781103685"
                     },
                     {
-                        "type": "ISBN_13",
-                        "identifier": "9788467503487"
+                        "type": "ISBN_10",
+                        "identifier": "1781103682"
                     }
                 ],
                 "readingModes": {
-                    "text": false,
-                    "image": false
+                    "text": true,
+                    "image": true
                 },
-                "pageCount": 91,
+                "pageCount": 223,
                 "printType": "BOOK",
                 "categories": [
-                    "Comics & Graphic Novels"
+                    "Juvenile Fiction"
                 ],
                 "averageRating": 5.0,
                 "ratingsCount": 1,
                 "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "comicsContent": true,
+                "allowAnonLogging": true,
+                "contentVersion": "1.10.12.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
                 "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=9ygPPQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=9ygPPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    "smallThumbnail": "http://books.google.com/books/content?id=GjgQCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=GjgQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=GjgQCwAAQBAJ&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=GjgQCwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GjgQCwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=GjgQCwAAQBAJ&rdid=book-GjgQCwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_a_Pedra_Filosofal-sample-epub.acsm?id=GjgQCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_a_Pedra_Filosofal-sample-pdf.acsm?id=GjgQCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=GjgQCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "qDYQCwAAQBAJ",
+            "etag": "3X5ennMrhVA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/qDYQCwAAQBAJ",
+            "volumeInfo": {
+                "title": "Harry Potter e o prisioneiro de Azkaban",
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-08",
+                "description": "As aulas estão de volta a Hogwarts e Harry Potter não vê a hora de embarcar no Expresso a vapor que o levará de volta à escola de bruxaria. Lá ele reencontra Rony e Hermione, seus melhores amigos em Hogwarts e, para sua surpresa, é procurado pelo próprio Ministro da Magia. Sem que Harry saiba, o ministro está preocupado com o garoto, pois fugiu da prisão de Azkaban o perigoso bruxo Sirius Black. Para piorar a situação, os terríveis guardas de Azkaban, conhecidos por dementadores, estão de guarda nos portões da escola, caso Sirius Black tente algo contra Harry. Por fim, Harry tem de enfrentar seu inimigo para salvar Rony e obrigado a escolher entre matar ou não aquele que traiu seus pais.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781781103708"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1781103704"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 318,
+                "printType": "BOOK",
+                "categories": [
+                    "Juvenile Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.5.8.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=qDYQCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=qDYQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=qDYQCwAAQBAJ&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=qDYQCwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qDYQCwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=qDYQCwAAQBAJ&rdid=book-qDYQCwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_o_prisioneiro_de_Azkaban-sample-epub.acsm?id=qDYQCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_o_prisioneiro_de_Azkaban-sample-pdf.acsm?id=qDYQCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=qDYQCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "As aulas estão de volta a Hogwarts e Harry Potter não vê a hora de embarcar no Expresso a vapor que o levará de volta à escola de bruxaria."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Aaug_RnI-xQC",
+            "etag": "2tzWMooRAPQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Aaug_RnI-xQC",
+            "volumeInfo": {
+                "title": "The Irresistible Rise of Harry Potter",
+                "authors": [
+                    "Andrew Blake"
+                ],
+                "publisher": "Verso",
+                "publishedDate": "2002",
+                "description": "Blake's examination of the Potter phenomenon raises serious questions about the condition of the publishing industry, filmmaking, and the ways in which the Potter consumer campaign has changed ideas about literature and reading.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1859846661"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781859846667"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 118,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 6,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
                 },
                 "language": "en",
-                "previewLink": "http://books.google.com.br/books?id=9ygPPQAACAAJ&dq=flowers%2Binauthor:keyes&hl=&cd=10&source=gbs_api",
-                "infoLink": "http://books.google.com.br/books?id=9ygPPQAACAAJ&dq=flowers%2Binauthor:keyes&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Flores_para_Algernon.html?hl=&id=9ygPPQAACAAJ"
+                "previewLink": "http://books.google.com.br/books?id=Aaug_RnI-xQC&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=5&source=gbs_api",
+                "infoLink": "http://books.google.com.br/books?id=Aaug_RnI-xQC&dq=harry%2Bpotter&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Irresistible_Rise_of_Harry_Potter.html?hl=&id=Aaug_RnI-xQC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Aaug_RnI-xQC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Blake&#39;s examination of the Potter phenomenon raises serious questions about the condition of the publishing industry, filmmaking, and the ways in which the Potter consumer campaign has changed ideas about literature and reading."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "iO5pApw2JycC",
+            "etag": "yF8ffcW1Zn8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/iO5pApw2JycC",
+            "volumeInfo": {
+                "title": "The Ivory Tower and Harry Potter",
+                "subtitle": "Perspectives on a Literary Phenomenon",
+                "authors": [
+                    "Lana A. Whited"
+                ],
+                "publisher": "University of Missouri Press",
+                "publishedDate": "2004",
+                "description": "Now available in paper, The Ivory Tower and Harry Potter is the first book-length analysis of J. K. Rowling's work from a broad range of perspectives within literature, folklore, psychology, sociology, and popular culture. A significant portion of the book explores the Harry Potter series' literary ancestors, including magic and fantasy works by Ursula K. LeGuin, Monica Furlong, Jill Murphy, and others, as well as previous works about the British boarding school experience. Other chapters explore the moral and ethical dimensions of Harry's world, including objections to the series raised within some religious circles. In her new epilogue, Lana A. Whited brings this volume up to date by covering Rowling's latest book, Harry Potter and the Order of the Phoenix.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0826215491"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780826215499"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 418,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 13,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "2.0.4.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.br/books?id=iO5pApw2JycC&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com.br/books?id=iO5pApw2JycC&dq=harry%2Bpotter&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Ivory_Tower_and_Harry_Potter.html?hl=&id=iO5pApw2JycC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/The_Ivory_Tower_and_Harry_Potter-sample-epub.acsm?id=iO5pApw2JycC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=iO5pApw2JycC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In her new epilogue, Lana A. Whited brings this volume up to date by covering Rowling&#39;s latest book, Harry Potter and the Order of the Phoenix."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "-DgQCwAAQBAJ",
+            "etag": "/yg4iyG6sGc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/-DgQCwAAQBAJ",
+            "volumeInfo": {
+                "title": "Harry Potter e as Relíquias da Morte",
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-08",
+                "description": "Em Harry Potter e as Relíquias da Morte, o encontro inevitável com Lord Voldemort não pode mais ser adiado. Harry, no entanto, precisa ganhar tempo para encontrar as Horcruxes que ainda estão faltando. E, pelo caminho, descobrir o que são afinal as Relíquias da Morte e como ele pode usá-las contra o Lorde das Trevas. Seguindo as poucas pistas deixadas por Dumbledore, Harry conta apenas com a ajuda dos leais amigos Rony e Hermione. Juntos, eles percorrem lugares nunca visitados, descobrem histórias nebulosas sobre pessoas queridas e acabam por desvendar mistérios que os incomodavam há muito tempo.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781781104064"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1781104069"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 551,
+                "printType": "BOOK",
+                "categories": [
+                    "Juvenile Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.5.8.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=-DgQCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=-DgQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=-DgQCwAAQBAJ&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=-DgQCwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-DgQCwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 24.9,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=-DgQCwAAQBAJ&rdid=book--DgQCwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 2.49E7,
+                            "currencyCode": "BRL"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_as_Rel%C3%ADquias_da_Morte-sample-epub.acsm?id=-DgQCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_e_as_Rel%C3%ADquias_da_Morte-sample-pdf.acsm?id=-DgQCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=-DgQCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Em Harry Potter e as Relíquias da Morte, o encontro inevitável com Lord Voldemort não pode mais ser adiado."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "WV8pZj_oNBwC",
+            "etag": "wIvCOM+iKko",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/WV8pZj_oNBwC",
+            "volumeInfo": {
+                "title": "Harry Potter Power",
+                "authors": [
+                    "Julie-Anne Sykley"
+                ],
+                "publisher": "Interactive Publications",
+                "publishedDate": "2010",
+                "description": "Uses motifs and situations from the popular 'Harry Potter' series and links them to theories and strategies designed to help young people overcome anxiety, anger, depression and grief.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781921479311"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1921479310"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 268,
+                "printType": "BOOK",
+                "categories": [
+                    "Juvenile Nonfiction"
+                ],
+                "averageRating": 1.0,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.0.0.0.preview.1",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=WV8pZj_oNBwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=WV8pZj_oNBwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.br/books?id=WV8pZj_oNBwC&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=WV8pZj_oNBwC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WV8pZj_oNBwC"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 58.37,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 58.37,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=WV8pZj_oNBwC&rdid=book-WV8pZj_oNBwC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5.837E7,
+                            "currencyCode": "BRL"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5.837E7,
+                            "currencyCode": "BRL"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=WV8pZj_oNBwC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&quot;[The author] shows how the universal themes in the Harry Potter series can make your life more positive and healthy and your lifestyle more sustainable.&quot;--Back cover."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "NjUQCwAAQBAJ",
+            "etag": "8nUeRG4cNS8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/NjUQCwAAQBAJ",
+            "volumeInfo": {
+                "title": "Harry Potter e a Ordem da Fénix",
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "publisher": "Pottermore Publishing",
+                "publishedDate": "2015-12-08",
+                "description": "Parece impossível, mas, no bairro mais Muggle do mundo Muggle, Harry é emboscado por Dementors! Para salvar a sua vida e a do primo Dudley, Harry não tem outra hipótese senão usar magia - mesmo sabendo que isso significará a sua expulsão mais que certa de Hogwarts. Enquanto o Ministério da Magia continua a não acreditar que o terrível Senhor das Trevas está de volta, Voldemort e os seus fiéis Devoradores da Morte já começaram a preparar o seu regresso ao poder. Porém, há uma nova esperança: uma antiga ordem secreta, da qual os pais de Harry fizeram parte, voltou a organizar-se e Dumbledore está atento.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781781103111"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1781103119"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 750,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.7.9.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=NjUQCwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=NjUQCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "pt",
+                "previewLink": "http://books.google.com.br/books?id=NjUQCwAAQBAJ&dq=harry%2Bpotter&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.com.br/books?id=NjUQCwAAQBAJ&dq=harry%2Bpotter&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_e_a_Ordem_da_F%C3%A9nix.html?hl=&id=NjUQCwAAQBAJ"
             },
             "saleInfo": {
                 "country": "BR",
@@ -744,18 +800,120 @@ export const apibook = {
                 "publicDomain": false,
                 "textToSpeechPermission": "ALLOWED",
                 "epub": {
-                    "isAvailable": false
+                    "isAvailable": true
                 },
                 "pdf": {
-                    "isAvailable": false
+                    "isAvailable": true
                 },
-                "webReaderLink": "http://play.google.com/books/reader?id=9ygPPQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "webReaderLink": "http://play.google.com/books/reader?id=NjUQCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
                 "accessViewStatus": "NONE",
                 "quoteSharingAllowed": false
             },
             "searchInfo": {
-                "textSnippet": "Charlie Gordon, a youth with limited mental capabilities, along with a laboratory rat named Algernon become the the joint objects of a scientific alteration to see if Charlie can become &quot;normal.&quot;"
+                "textSnippet": "Parece impossível, mas, no bairro mais Muggle do mundo Muggle, Harry é emboscado por Dementors!"
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "7HgwCgAAQBAJ",
+            "etag": "HHLI7uo2MXU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/7HgwCgAAQBAJ",
+            "volumeInfo": {
+                "title": "Harry Potter and the Classical World",
+                "subtitle": "Greek and Roman Allusions in J.K. Rowling’s Modern Epic",
+                "authors": [
+                    "Richard A. Spencer"
+                ],
+                "publisher": "McFarland",
+                "publishedDate": "2015-07-11",
+                "description": "J.K. Rowling has drawn deeply from classical sources to inform and color her Harry Potter novels, with allusions ranging from the obvious to the obscure. “Fluffy,” the vicious three-headed dog in Harry Potter and the Sorcerer’s Stone, is clearly a repackaging of Cerberus, the hellhound of Greek and Roman mythology. But the significance of Rowling’s quotation from Aeschylus at the front of Harry Potter and the Deathly Hallows is a matter of speculation. Her use of classical material is often presented with irony and humor. This extensive analysis of the Harry Potter series examines Rowling’s wide range of allusion to classical characters and themes and her varied use of classical languages. Chapters discuss Harry and Narcissus, Dumbledore’s many classical predecessors, Lord Voldemort’s likeness to mythical figures, and magic in Harry Potter and classical antiquity—among many topics.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781476621418"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1476621411"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 324,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Criticism"
+                ],
+                "averageRating": 2.5,
+                "ratingsCount": 8,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.1.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=7HgwCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=7HgwCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com.br/books?id=7HgwCgAAQBAJ&printsec=frontcover&dq=harry%2Bpotter&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=7HgwCgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7HgwCgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BR",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 59.94,
+                    "currencyCode": "BRL"
+                },
+                "retailPrice": {
+                    "amount": 59.94,
+                    "currencyCode": "BRL"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=7HgwCgAAQBAJ&rdid=book-7HgwCgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5.994E7,
+                            "currencyCode": "BRL"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5.994E7,
+                            "currencyCode": "BRL"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "BR",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_and_the_Classical_World-sample-epub.acsm?id=7HgwCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com.br/books/download/Harry_Potter_and_the_Classical_World-sample-pdf.acsm?id=7HgwCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=7HgwCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "This extensive analysis of the Harry Potter series examines Rowling&#39;s wide range of allusion to classical characters and themes and her varied use of classical languages."
             }
         }
     ]
+
 }

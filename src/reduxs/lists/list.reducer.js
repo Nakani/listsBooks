@@ -1,6 +1,11 @@
 const INITIAL_STATE = {
     loaded: false,
-    lists: [],
+    lists: {
+        "kind": "",
+        "totalItems": 0,
+        "items": []
+    },
+
 }
 
 export default (state = INITIAL_STATE, action) => {
