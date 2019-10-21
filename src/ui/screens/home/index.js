@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { FlatList } from 'react-native'
+import { FlatList, TouchableOpacity } from 'react-native'
 import { BaseComponent, CardComponent } from 'components'
 import { useSelector, useDispatch } from 'react-redux'
 import { getLists } from 'reduxs'
 
-export default function Products() {
+export default function IndexScreen(props) {
+    const { navigation } = props
     const [listsArray, setList] = useState([]);
     const response = useSelector(state => state)
     const dispatch = useDispatch()
@@ -21,17 +22,15 @@ export default function Products() {
     }, [lists.totalItems])
 
     function renderItem(item) {
-        console.log(item)
+
         return (
-            <CardComponent item={item} />
+            <CardComponent item={item} navigation={navigation} />
         )
     }
 
     return (
         <>
-            <BaseComponent
-            //headerDisplay={true}
-            >
+            <BaseComponent>
                 <FlatList
                     data={listsArray}
                     renderItem={({ item }) => renderItem(item)}

@@ -9,10 +9,18 @@ export const Styles = StyleSheet.create({
         borderTopLeftRadius: 10,
         borderTopRightRadius: 10,
     },
+    containerTitle: {
+        position: 'absolute',
+    },
     title: {
         flex: 1,
-        color: '#fff',
-        position: 'absolute',
+        color: theme.colors.primary,
+        backgroundColor: theme.colors.transparentDark,
+        padding: 10
+    },
+    subTitle: {
+        flex: 1,
+        color: theme.colors.primary,
         backgroundColor: theme.colors.transparentDark,
         padding: 10
     },

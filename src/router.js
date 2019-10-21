@@ -4,14 +4,21 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 //UI
-import HomeScreen from './ui/screens/home'
+import IndexScreen from './ui/screens/home'
+import DetailScreen from './ui/screens/home/details'
 import { Icon } from 'native-base'
 import { theme } from 'theme'
 
 
 const homeStack = createStackNavigator({
     Home: {
-        screen: HomeScreen,
+        screen: IndexScreen,
+        navigationOptions: {
+            header: null,
+        },
+    },
+    Detail: {
+        screen: DetailScreen,
         navigationOptions: {
             header: null,
         },
@@ -20,7 +27,6 @@ const homeStack = createStackNavigator({
 
 
 const getTabBarIcon = (navigation, focused, tintColor) => {
-    console.log(navigation)
     const { routeName } = navigation.state;
     let iconName;
     if (routeName === 'Home') {

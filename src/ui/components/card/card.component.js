@@ -9,30 +9,47 @@ import {
     Button,
     Right
 } from 'native-base';
-import { Image, View } from 'react-native'
+import { Image, View, TouchableOpacity } from 'react-native'
 import { Styles } from './card.styles';
 import moment from "moment"
 
 export function CardComponent(data) {
-    const { imageLinks, title, authors, publishedDate } = data.item.volumeInfo
+    const { item, navigation } = data
+    const { imageLinks, title, authors, publishedDate } = item.volumeInfo
+
+    function goDetail(item) {
+        console.log('goDetail', item)
+
+    }
+
     return (
         <Card style={Styles.card}>
-            <CardItem cardBody>
+            <CardItem
+                cardBody
+            >
                 <Image
                     source={{ uri: imageLinks.thumbnail }}
                     style={Styles.image}
                 />
-                <Text style={Styles.title}>
-                    {title}
-                </Text>
+                <View style={Styles.containerTitle}>
+                    <Text style={Styles.title}>
+                        {title}
+                    </Text>
+                </View>
             </CardItem>
             <CardItem style={Styles.cardItem}>
                 <Left>
                     <Text style={Styles.textFooterLeft}>{authors}</Text>
                 </Left>
-                <Body />
                 <Right>
-                    <Text style={Styles.textFooter}>{moment(publishedDate).format("DD-MM-YYYY")}</Text>
+                    <Button
+                        transparent
+                        onPress={() => navigation.navigate('Detail', { item })}
+                    >
+                        <Text style={Styles.textFooterLeft}>
+                            Saiba mais...
+                        </Text>
+                    </Button>
                 </Right>
             </CardItem>
         </Card>

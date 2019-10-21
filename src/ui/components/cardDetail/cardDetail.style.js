@@ -1,37 +1,53 @@
 import { StyleSheet } from 'react-native'
+import { theme } from 'theme'
 export const Styles = StyleSheet.create({
-  containerIcon: {
-    flex: 1,
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    flexDirection: 'row',
+  container: {
+    backgroundColor: 'transparent',
+    width: '100%',
+    paddingLeft: 5,
+    paddingRight: 5
   },
-  contentIcon: {
+  content: {
+    backgroundColor: 'transparent',
+    paddingTop: 10,
+    paddingBottom: 10
+  },
+  image: {
+    height: 200,
+    width: '100%',
     flex: 1,
-    justifyContent: 'flex-start',
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+  },
+  description: {
+    textAlign: 'left',
+    color: theme.colors.primary
+  },
+
+  contentFooter: {
+    backgroundColor: 'transparent',
+    top: 30,
+    paddingLeft: 30,
+    paddingRight: 30,
+  },
+  buttonContent: {
+    borderWidth: 1,
+    borderColor: theme.colors.primary,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
     alignItems: 'center',
+    top: 10,
+    padding: 10
   },
   icon: {
-    fontSize: 20,
-    textAlign: 'center',
-    color: '#E08C00',
-    marginBottom: 7,
+    color: theme.colors.primary,
   },
-  labelIcon: {
-    fontSize: 9,
-    textAlign: 'center',
-    color: '#E08C00'
+  iconChecked: {
+    color: theme.colors.highlight
   },
-  contentDescription: {
-    flex: 1,
-    alignItems: 'center',
-    width: '100%',
-    borderTopWidth: 1,
-    padding: 10,
-    borderTopColor: '#c3c3c3'
-
-  },
-  textDescription: {
-    color: '#E08C00',
-  },
+  textButton: {
+    color: theme.colors.primary,
+    marginLeft: 10
+  }
 });
