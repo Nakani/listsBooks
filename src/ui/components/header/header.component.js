@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { SafeAreaView } from 'react-native';
+import { View, TouchableOpacity } from 'react-native';
 import {
   Header,
   Left,
@@ -12,26 +12,38 @@ import {
 import { Styles } from './styles/header.styles'
 
 export class HeaderComponent extends PureComponent {
-  render() {
+
+  renderGoback() {
     const { ...rest } = this.props
     return (
+      <Left>
+        {
+          rest.goback ?
+            <Button
+              transparent
+              onPress={() => rest.navigation.goBack()}
+            >
+              <Icon
+                style={Styles.icon}
+                name='angle-left'
+                type="FontAwesome5"
+              />
+            </Button>
+            : null
+        }
+      </Left>
+    )
+  }
+
+  initSearch() {
+    this.props.navigation.navigate('Search')
+  }
+
+  render() {
+    const { ...rest } = this.props
+    return !rest.transparent ? (
       <Header style={Styles.headerContent}>
-        <Left>
-          {
-            rest.goback ?
-              <Button
-                transparent
-                onPress={() => rest.navigation.goBack()}
-              >
-                <Icon
-                  style={Styles.icon}
-                  name='angle-left'
-                  type="FontAwesome5"
-                />
-              </Button>
-              : null
-          }
-        </Left>
+        {this.renderGoback()}
         <Body>
           <Title
             style={Styles.labelHeader}
@@ -49,7 +61,21 @@ export class HeaderComponent extends PureComponent {
           </Button>
         </Right>
       </Header>
-    )
+    ) : (
+        < View style={Styles.containerTransparent} >
+          {rest.goback ? (
+            <TouchableOpacity
+              onPress={() => rest.navigation.goBack()}
+            >
+              <Icon
+                name='angle-left'
+                type="FontAwesome5"
+                style={Styles.iconTransparent}
+              />
+            </TouchableOpacity>
+          ) : <View style={Styles.iconTransparent} ></View>}
+        </View >
+      )
   }
 
 }

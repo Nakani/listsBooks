@@ -5,12 +5,7 @@ import { Styles } from './cardDetail.style'
 
 export function CardDetailComponent(props) {
   const { imageLinks, description } = props.data.item.volumeInfo
-  console.log('detail', props.data.item.volumeInfo)
-
-  function addFavorite(item) {
-    console.log('favorito', item)
-    Alert.alert('Sucesso', 'adicionado com sucesso a sua lista de favoritos')
-  }
+  console.log('detail', props)
 
   return (
     <View style={Styles.container}>
@@ -22,7 +17,7 @@ export function CardDetailComponent(props) {
       </View>
       <View style={Styles.contentFooter} >
         <TouchableOpacity
-          onPress={() => addFavorite(props.data.item.volumeInfo)}
+          onPress={() => props.favorite(props.data.item.volumeInfo)}
         >
           <View style={Styles.buttonContent}>
             <Icon name='heart' style={Styles.icon} type="FontAwesome5" />

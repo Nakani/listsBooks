@@ -1,1 +1,1 @@
-export { getLists } from './lists/list.action'
+export { getLists } from './search/search.action'

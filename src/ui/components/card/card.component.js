@@ -15,12 +15,7 @@ import moment from "moment"
 
 export function CardComponent(data) {
     const { item, navigation } = data
-    const { imageLinks, title, authors, publishedDate } = item.volumeInfo
-
-    function goDetail(item) {
-        console.log('goDetail', item)
-
-    }
+    const { imageLinks, title, authors, publishedDate } = item
 
     return (
         <Card style={Styles.card}>

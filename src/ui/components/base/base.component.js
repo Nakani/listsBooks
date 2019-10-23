@@ -1,18 +1,16 @@
 import React, { PureComponent } from 'react';
 import { Container, Content, Icon } from 'native-base';
 import { View, TouchableOpacity } from 'react-native'
-import { HeaderComponent } from '../header/header.component';
+import { HeaderComponent } from '../index';
 import { theme } from 'theme'
 import { Styles } from './base.style';
 
 export class BaseComponent extends PureComponent {
 
-  search() {
-    alert('buscar')
-  }
 
   render() {
     const { children, ...rest } = this.props
+
     return rest.headerDisplay ? (
       <Container
         style={{ backgroundColor: theme.colors.dark }}
@@ -29,18 +27,14 @@ export class BaseComponent extends PureComponent {
       </Container>
     ) : (
         <Container
-          style={{ backgroundColor: theme.colors.dark }}>
-          <View style={Styles.containerIcon}>
-            <TouchableOpacity
-              onPress={this.search}
-            >
-              <Icon
-                type="FontAwesome5"
-                name="search"
-                style={Styles.iconHeader}
-              />
-            </TouchableOpacity>
-          </View>
+          style={Styles.containerBase}
+        >
+          <HeaderComponent
+            goback={rest.goback}
+            navigation={rest.navigation}
+            transparent={true}
+            modal={this.props.modal}
+          />
           <Content>
             {children}
           </Content>
