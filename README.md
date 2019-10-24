@@ -2,9 +2,9 @@ Projeto GetBooks
 Desenvolvido para South System.
 
 como rodar projeto!
- - clone o repositorio
+ - clone o repositório
  - use o comando yarn para instalar dependências
- - após finalizar, entre em ios e rode pod install
+ - após finalizar, entre na pasta ios e rode pod install
  - abra a pasta ios e abra o projeto getBooks.xcworkspace no Xcode
  - selecione um emulador e o time do projeto!
 
