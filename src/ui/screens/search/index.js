@@ -30,7 +30,9 @@ export default function SearchScreen(props) {
 
     function renderItem(item) {
         return (
-            <CardComponent item={item.volumeInfo} navigation={navigation} />
+            <CardComponent
+                item={item.volumeInfo}
+                navigation={navigation} />
         )
     }
 

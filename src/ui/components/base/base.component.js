@@ -28,13 +28,13 @@ export class BaseComponent extends PureComponent {
     ) : (
         <Container
           style={Styles.containerBase}
-        >
+        >{rest.goBackTransparent ? (
           <HeaderComponent
             goback={rest.goback}
             navigation={rest.navigation}
             transparent={true}
-            modal={this.props.modal}
           />
+        ) : null}
           <Content>
             {children}
           </Content>

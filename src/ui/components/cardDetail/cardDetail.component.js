@@ -4,7 +4,7 @@ import { Icon } from 'native-base'
 import { Styles } from './cardDetail.style'
 
 export function CardDetailComponent(props) {
-  const { imageLinks, description } = props.data.item.volumeInfo
+  const { imageLinks, description } = props.data.item
   console.log('detail', props)
 
   return (
@@ -17,7 +17,7 @@ export function CardDetailComponent(props) {
       </View>
       <View style={Styles.contentFooter} >
         <TouchableOpacity
-          onPress={() => props.favorite(props.data.item.volumeInfo)}
+          onPress={() => props.favorite(props.data.item)}
         >
           <View style={Styles.buttonContent}>
             <Icon name='heart' style={Styles.icon} type="FontAwesome5" />

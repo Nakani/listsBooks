@@ -15,7 +15,7 @@ import moment from "moment"
 
 export function CardComponent(data) {
     const { item, navigation } = data
-    const { imageLinks, title, authors, publishedDate } = item
+    const { title, authors } = item
 
     return (
         <Card style={Styles.card}>
@@ -23,7 +23,7 @@ export function CardComponent(data) {
                 cardBody
             >
                 <Image
-                    source={{ uri: imageLinks.thumbnail }}
+                    source={{ uri: data.item.imageLinks.thumbnail }}
                     style={Styles.image}
                 />
                 <View style={Styles.containerTitle}>

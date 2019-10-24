@@ -7,7 +7,7 @@ export function SearchComponent(props) {
     const [value, onChangeText] = useState('digite sua pesquisa');
 
     return (
-        <Item>
+        <Item style={Styles.container}>
             <Input
                 placeholder='digite sua pesquisa'
                 onChangeText={text => onChangeText(text)}
@@ -17,7 +17,7 @@ export function SearchComponent(props) {
             <TouchableOpacity
                 onPress={() => props.search(value)}
             >
-                <Icon active name='search' />
+                <Icon style={Styles.icon} active name='search' />
             </TouchableOpacity>
         </Item>
     )

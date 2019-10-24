@@ -48,7 +48,8 @@ const getTabBarIcon = (navigation, focused, tintColor) => {
     return <Icon
         name={iconName}
         size={25}
-        color={tintColor}
+        style={{ color: tintColor }}
+
         type="FontAwesome5"
     />;
 };
