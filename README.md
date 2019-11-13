@@ -1,5 +1,4 @@
 Projeto GetBooks 
-Desenvolvido para South System.
 
 como rodar projeto!
  - clone o repositório
